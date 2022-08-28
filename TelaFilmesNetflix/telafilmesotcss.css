@@ -1,0 +1,174 @@
+body{
+    background-color: #141414;
+    font-family: sans-serif;
+    font-size: 70px;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+
+
+
+.header{
+background-color: #0D0D0D;
+margin-bottom: 15px;
+
+}
+
+.barra{
+justify-content: center;
+font-size: 15px;
+color: white;
+display: flex;
+flex-direction: row;
+position: relative;
+gap: 1cm;
+top: 8px;
+}
+
+.escrito{
+justify-content: center;
+font-size: 15px;
+color: white;
+display: flex;
+flex-direction: row;
+position: relative;
+gap: 0.5cm;
+top: 6px;
+left: -25.5cm;
+}
+
+.logo{
+height: 30px;
+display: flex;
+flex-direction: row;
+position: relative;
+padding-right: 25.5cm;
+}
+
+.lupa{
+height: 20px;
+}
+
+.bell{
+height: 20px;
+}
+
+.icon{
+height: 35px;
+position: relative;
+bottom: 8px;
+}
+
+.imgs{
+justify-content: center;
+font-size: 15px;
+display: flex;
+flex-direction: row;
+position: relative;
+gap: 1cm;
+top: 4px;
+left: -5PX;
+}
+
+.logo:hover,.lupa:hover,.bell:hover,.icon:hover{
+cursor: pointer;
+}
+
+.ini:hover,.ser:hover,.fil:hover,.bom:hover,.mil:hover,.npi:hover{
+    cursor: pointer;
+    color: rgb(141, 140, 140);
+}
+
+
+
+
+
+
+
+
+
+.emaltatxt{
+font-size: 30px;
+justify-content: center;
+color: white;
+display: flex;
+flex-direction: row;
+position: relative;
+left: -22.24cm;
+}
+
+.emalta{
+justify-content: center;
+font-size: 15px;
+color: white;
+display: flex;
+flex-direction: row;
+position: relative;
+gap: 0.25cm;
+top: -0.75cm;
+left: -17px;
+}
+
+
+.poptxt{
+font-size: 30px;
+justify-content: center;
+color: white;
+display: flex;
+flex-direction: row;
+position: relative;
+left: -20cm;
+}
+
+.pop{
+justify-content: center;
+font-size: 15px;
+color: white;
+display: flex;
+flex-direction: row;
+position: relative;
+gap: 0.25cm;
+left: -17px;
+top: -0.75cm;
+}
+
+.asntxt{
+font-size: 30px;
+justify-content: center;
+color: white;
+display: flex;
+flex-direction: row;
+position: relative;
+left: -20.17cm;
+}
+
+.asn{
+justify-content: center;
+font-size: 15px;
+color: white;
+display: flex;
+flex-direction: row;
+position: relative;
+gap: 0.25cm;
+left: -17px;
+top: -0.75cm;
+}
+
+
+.emaltatxt:hover,.poptxt:hover,.asntxt:hover{
+cursor: pointer;
+}
+
+
+.you,.arrow,.r13,.re,.stt,.lupin,.ragn,.therain,.mariane,.under6,.anne,.enola,.thell,.pblin,.bright{
+border-radius: 4px;
+}
+    
+.you:hover,.arrow:hover,.r13:hover,.re:hover,.stt:hover,.lupin:hover,.ragn:hover,.therain:hover,.mariane:hover,.under6:hover,.anne:hover,.enola:hover,.thell:hover,.pblin:hover,.bright:hover{
+cursor: pointer;
+
+}
+
+
+
