@@ -163,10 +163,18 @@ cursor: pointer;
 
 .you,.arrow,.r13,.re,.stt,.lupin,.ragn,.therain,.mariane,.under6,.anne,.enola,.thell,.pblin,.bright{
 border-radius: 4px;
+-webkit-transition: all 0.3s;
+-moz-transition: all 0.3s;
+transition: all 0.3s;
 }
     
 .you:hover,.arrow:hover,.r13:hover,.re:hover,.stt:hover,.lupin:hover,.ragn:hover,.therain:hover,.mariane:hover,.under6:hover,.anne:hover,.enola:hover,.thell:hover,.pblin:hover,.bright:hover{
 cursor: pointer;
+-moz-transform: scale(1.1);
+-webkit-transform: scale(1.1);
+transform: scale(1.4);
+bottom: 20px;
+position: relative;
 
 }
 
