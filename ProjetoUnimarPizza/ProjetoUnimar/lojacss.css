@@ -125,6 +125,7 @@ body::-webkit-scrollbar-thumb:hover{
     width: 11cm;
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
+    border: none;
 }
 
 
@@ -143,7 +144,7 @@ body::-webkit-scrollbar-thumb:hover{
     text-align: left;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
-
+    border: none;
 }
 
 .lupa{
@@ -154,7 +155,7 @@ body::-webkit-scrollbar-thumb:hover{
     margin-right: auto;
     position: absolute;
     bottom: 0.5cm;
-    top: 5.9cm;
+    top: 224px;
     left: 105px;
     width: 22px;
     cursor: pointer;
@@ -173,7 +174,7 @@ body::-webkit-scrollbar-thumb:hover{
     width: 52px;
     background-color: rgb(27, 27, 27);
     border-radius: 10px;
-    height: 30px;
+    height: 32px;
     cursor: pointer;
 }
 
