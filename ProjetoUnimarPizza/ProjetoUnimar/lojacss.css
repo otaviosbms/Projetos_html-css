@@ -1,0 +1,486 @@
+
+/* fontes */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Squada+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+/* corpo / barra de rolagem */
+
+
+body{
+    background-color: black;
+}
+
+body::-webkit-scrollbar {
+    width: 9px;
+  }
+  
+body::-webkit-scrollbar-track {
+    background: none;
+}
+  
+body::-webkit-scrollbar-thumb {
+    background-color: #AAAAAA;
+    border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb:hover{
+    background-color: #717171;
+}
+
+
+/* cabeçalho */
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(209, 56, 56);
+    height: 200px;
+    width: 1050px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 60px;
+    padding-top: 10px;
+    position: relative;
+    border-radius: 10px;
+}
+
+
+
+.logo{
+    width: 280px;
+    position: relative;
+    top: -10px;
+}
+
+
+.facenovo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    position: relative;
+    left: 552px;
+    bottom: 270px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.facenovo:hover{
+    cursor: pointer;
+}
+
+
+.instanovo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 552px;
+    bottom: 260px;
+    height: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.instanovo:hover{
+    cursor: pointer;
+}
+
+
+
+.wppnovo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 552px;
+    bottom: 250px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.wppnovo:hover{
+    cursor: pointer;
+}
+
+
+
+.menu{
+    display: flex;
+    justify-content: center;
+    bottom: 0.5cm;
+    top: 5.8cm;
+    position: absolute;
+    align-items: center;
+    right: 2.4cm;
+    border-radius: 10px;
+    text-align: center;
+    width: 11cm;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.pesquisa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    bottom: 0.5cm;
+    border-radius: 10px;
+    top: 5.8cm;
+    width: 10cm;
+    left: 144px;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+
+}
+
+.lupa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    bottom: 0.5cm;
+    top: 5.9cm;
+    left: 105px;
+    width: 22px;
+    cursor: pointer;
+}
+
+.lupaback{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    bottom: 0.5cm;
+    top: 5.8cm;
+    left: 90px;
+    width: 52px;
+    background-color: rgb(27, 27, 27);
+    border-radius: 10px;
+    height: 30px;
+    cursor: pointer;
+}
+
+
+
+.frase{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    position: absolute;
+    top: -20px;
+    left: 100px;
+    flex-direction: column;
+    text-align: left;
+    font-size: 35px;
+    font-family: 'Squada One', cursive;
+
+}
+
+
+.frase2{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    position: absolute;
+    top: -34px;
+    right: 100px;
+    flex-direction: column;
+    text-align: right;
+    font-size: 50px;
+    font-family: 'Squada One', cursive;
+}
+
+
+
+/* corpo do site */
+
+
+.container2{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    bottom: 140px;
+    align-items: center;
+    background-color: rgb(27, 27, 27);
+    height: 2595px;
+    width: 1050px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+
+/* linha1 */
+
+.linha1{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    top: 0.7cm;
+    gap: 1.5cm;
+}
+
+.linha1txt{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    top: 8.3cm;
+    gap: 1.6cm;
+}
+
+.americanatxt,.australianatxt,.bacontxt{
+    background-color: white;
+    width: 6.5cm;
+    text-align: center;
+}
+
+.americana,.australiana,.bacon{
+    width: 250px;
+}
+
+
+/* linha2 */
+
+
+.linha2{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    top: 12cm;
+    gap: 1.5cm;
+}
+
+.linha2txt{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    top: 19.5cm;
+    gap: 1.6cm; 
+}
+
+
+.calabresatxt,.cariocatxt,.franbacontxt{
+    background-color: white;
+    width: 6.5cm;
+    text-align: center;
+}
+
+.calabresa,.carioca,.franbacon{
+    width: 250px;
+}
+
+
+/* linha 3 */
+
+
+.linha3{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    top: 23.4cm;
+    gap: 1.5cm;
+}
+
+.linha3txt{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    top: 30.9cm;
+    gap: 1.6cm; 
+}
+
+
+.frangoccattxt,.lombotxt,.mussarelatxt{
+    background-color: white;
+    width: 6.5cm;
+    text-align: center;
+}
+
+
+.frangoccat,.lombo,.mussarela{
+    width: 250px;
+}
+
+
+/* linha 4 */
+
+
+
+.linha4{
+    position: absolute;
+    display: flex;
+    top: 34.8cm;
+    flex-direction: row;
+    gap: 1.5cm;
+}
+
+
+.linha4txt{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    top: 42.3cm;
+    gap: 1.6cm; 
+}
+
+.paulistatxt,.queijos5txt,.strdecarnetxt{
+    background-color: white;
+    width: 6.5cm;
+    text-align: center;
+}
+
+.paulista,.queijos5,.strdecarne{
+    width: 250px;
+}
+
+/* linha 5 */
+
+
+
+.linha5{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    top: 46.2cm;
+    gap: 1.5cm;
+}
+
+.linha5txt{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    top: 53.7cm;
+    gap: 1.6cm; 
+}
+
+
+
+.suprematxt,.bananatxt,.brigadeirotxt{
+    background-color: white;
+    width: 6.5cm;
+    text-align: center;
+}
+
+.suprema,.banana,.brigadeiro{
+    width: 250px;
+}
+
+
+/* linha 6 */
+
+
+
+.linha6{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    top: 57.5cm;
+    gap: 1.5cm;
+}
+
+.linha6txt{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    top: 65cm;
+    gap: 1.6cm;
+    padding-bottom: 1cm;
+}
+
+
+.aguatxt,.cocatxt,.uvatxt{
+    background-color: white;
+    width: 6.5cm;
+    text-align: center;
+}
+
+.agua,.coca,.uva{
+    width: 250px;
+}
+
+
+/* personalização */
+
+.americana,.australiana,.bacon,.calabresa,.carioca,.franbacon,.frangoccat,.lombo,.mussarela,.paulista,.queijos5,.strdecarne,.suprema,.banana,.brigadeiro,.agua,.coca,.uva{
+    border-radius: 10px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+
+.americanatxt,.australianatxt,.bacontxt,.calabresatxt,.cariocatxt,.franbacontxt,.frangoccattxt,.lombotxt,.mussarelatxt,.paulistatxt,.queijos5txt,.strdecarnetxt,.suprematxt,.bananatxt,.brigadeirotxt,.aguatxt,.cocatxt,.uvatxt{
+    border-radius: 10px;
+    border: 2px solid rgb(209, 56, 56);
+    font-size: 17px;
+}
+
+.americana:hover,.australiana:hover,.bacon:hover,.calabresa:hover,.carioca:hover,.franbacon:hover,.frangoccat:hover,.lombo:hover,.mussarela:hover,.paulista:hover,.queijos5:hover,.strdecarne:hover,.suprema:hover,.banana:hover,.brigadeiro:hover,.agua:hover,.coca:hover,.uva:hover{
+    cursor: pointer;
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    position: relative;
+}
+
+
+
+/* voltar ao topo */
+
+
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 50px;
+    right: 25px;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(27, 27, 27);
+    text-decoration: none;
+    border-radius: 30px;
+}
+
+
+.btn::after {
+    content: "▲";
+    font-size: 25px;
+    font-weight: bold;
+    color:  rgb(209, 56, 56);
+    transition: margin-top 250ms;
+}
+
+
+.btn:hover::after {
+    margin-top:-8px;
+}
+
