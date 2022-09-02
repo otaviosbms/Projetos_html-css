@@ -51,7 +51,6 @@ body::-webkit-scrollbar-thumb:hover{
 }
 
 
-
 .logo{
     width: 280px;
     position: relative;
@@ -93,7 +92,6 @@ body::-webkit-scrollbar-thumb:hover{
 }
 
 
-
 .wppnovo{
     display: flex;
     justify-content: center;
@@ -109,7 +107,6 @@ body::-webkit-scrollbar-thumb:hover{
 .wppnovo:hover{
     cursor: pointer;
 }
-
 
 
 .menu{
@@ -179,7 +176,6 @@ body::-webkit-scrollbar-thumb:hover{
 }
 
 
-
 .frase{
     display: flex;
     justify-content: right;
@@ -207,7 +203,6 @@ body::-webkit-scrollbar-thumb:hover{
     font-size: 50px;
     font-family: 'Squada One', cursive;
 }
-
 
 
 /* corpo do site */
@@ -353,8 +348,8 @@ body::-webkit-scrollbar-thumb:hover{
     width: 250px;
 }
 
-/* linha 5 */
 
+/* linha 5 */
 
 
 .linha5{
@@ -374,7 +369,6 @@ body::-webkit-scrollbar-thumb:hover{
 }
 
 
-
 .suprematxt,.bananatxt,.brigadeirotxt{
     background-color: white;
     width: 6.5cm;
@@ -387,7 +381,6 @@ body::-webkit-scrollbar-thumb:hover{
 
 
 /* linha 6 */
-
 
 
 .linha6{
@@ -444,9 +437,7 @@ body::-webkit-scrollbar-thumb:hover{
 }
 
 
-
 /* voltar ao topo */
-
 
 
 html, body {
@@ -455,7 +446,6 @@ html, body {
     margin: 0;
     padding: 0;
 }
-
 
 .btn {
     display: flex;
@@ -470,7 +460,6 @@ html, body {
     text-decoration: none;
     border-radius: 30px;
 }
-
 
 .btn::after {
     content: "▲";
